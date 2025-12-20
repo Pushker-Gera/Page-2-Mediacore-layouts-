@@ -2009,9 +2009,7 @@ font-family: "Poppins", sans-serif;
    .activeNavBar .black-links {
      color: white;
    }
-   .flex2 {
-     flex-direction: column;
-   }
+   
    .flex-box-2 {
      flex-direction: column;
      flex-wrap: wrap;
