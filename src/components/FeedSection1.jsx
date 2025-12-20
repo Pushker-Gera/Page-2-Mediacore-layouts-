@@ -36,10 +36,12 @@ const FeedSection1 = () => {
                     <p className='para-14'>Quis et id urna sagittis. Enim lacus, felis, libero sed nisl vitae blandit sociis.</p>
                   </div>
                 </div>
+                <Link to='/Events'>
                 <div className="box-type-2">
                   <h3 className="heading-15">+15</h3>
                   <p className='para-15'>more</p>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

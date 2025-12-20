@@ -4,21 +4,24 @@ const Footer = () => {
   return (
       <div>
           <footer>
-              <div class="container">
-                  <div class="row-4">
-                      <div class=" col-12 col-sm-6 col-md-4">
-                          <div class="gap">
-                              <div class="flex2">
-                                  <h1 class="logo-h">Events<span class="color">Free</span></h1>
-                              </div>
-                              <p class="para-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
+              <div className="container">
+                  <div className="row-4">
+                      <div className=" col-12 col-sm-6 col-md-4">
+                          <div className="gap">
+                              <Link to="/">
+                              <div className="flex2">
+                                  <img src="./assets/images/logo-img.png" alt="" />
+                                  <h1 className="logo-h">Events<span className="color">Free</span></h1>
+                                  </div>
+                              </Link>
+                              <p className="para-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna
                                   in
                                   dictum suscipit. Suspendisse maximus
                                   ipsum sem. c</p>
-                              <div class="icon-flex-box">
+                              <div className="icon-flex-box">
                                   <a
                                     href="https://www.instagram.com/"
-                                    class="icon"
+                                    className="icon"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                   >
@@ -30,7 +33,7 @@ const Footer = () => {
                                       </svg>
                                   </a>
                                   <a href="https://www.facebook.com/"
-                                      class="icon"
+                                      className="icon"
                                       target="_blank"
                                       rel="noopener noreferrer">
                                       <svg width="24" height="23" viewBox="0 0 24 23" fill="none"
@@ -43,11 +46,12 @@ const Footer = () => {
                                           fill="white" />
                                   </svg></a>
                                   <a href="https://x.com/"
-                                      class="icon"
+                                      className="icon"
                                       target="_blank"
-                                      rel="noopener noreferrer"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                      rel="noopener noreferrer"
+                                  ><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                       xmlns="http://www.w3.org/2000/svg">
-                                      <g clip-path="url(#clip0_102118_326)">
+                                      <g clipPath="url(#clip0_102118_326)">
                                           <path
                                               d="M11.8002 -0.0238342C5.61148 -0.0238342 0.575684 5.01057 0.575684 11.2C0.575684 17.3894 5.61148 22.4238 11.8002 22.4238C17.9889 22.4238 23.0247 17.3894 23.0247 11.2C23.0247 5.01057 17.9889 -0.0238342 11.8002 -0.0238342ZM11.8002 21.6762C6.02378 21.6762 1.32468 16.9764 1.32468 11.2C1.32468 5.42357 6.02378 0.723766 11.8002 0.723766C17.5766 0.723766 22.2757 5.42357 22.2757 11.2C22.2757 16.9764 17.5766 21.6762 11.8002 21.6762Z"
                                               fill="white" />
@@ -65,39 +69,39 @@ const Footer = () => {
                               </div>
                           </div>
                       </div>
-                      <div class="col-12 col-sm-6 col-md-4">
-                          <div class="flex">
-                              <div class="services-col">
-                                  <Link to="/Events"><h4 class="heading-10">SERVICES</h4></Link>
-                                  <p class="para-10">About</p>
-                                  <p class="para-10">News</p>
-                                  <p class="para-10">ullamcorper</p>
-                                  <p class="para-10">Contact</p>
+                      <div className="col-12 col-sm-6 col-md-4">
+                          <div className="flex">
+                              <div className="services-col">
+                                  <h4 className="heading-10">SERVICES</h4>
+                                  <a href='#' className="para-10">About</a>
+                                  <a href='#' className="para-10">News</a>
+                                  <a href='#' className="para-10">ullamcorper</a>
+                                  <a href='#' className="para-10">Contact</a>
                               </div>
-                              <div class="events-col">
-                                  <Link to="/Events"><h4 class="heading-10">EVENTS</h4></Link>
-                                  <p class="para-10">ullamcorper</p>
-                                  <p class="para-10">ullamcorper</p>
-                                  <p class="para-10">ullamcorper</p>
-                                  <p class="para-10">ullamcorper</p>
+                              <div className="events-col">
+                                  <h4 className="heading-10">EVENTS</h4>
+                                  <a href='#' className="para-10">ullamcorper</a>
+                                  <a href='#' className="para-10">ullamcorper</a>
+                                  <a href='#' className="para-10">ullamcorper</a>
+                                  <a href='#' className="para-10">ullamcorper</a>
                               </div>
                           </div>
                       </div>
-                      <div class="col-12 col-sm-6 col-md-4">
-                          <div class="margin">
-                              <h4 class="heading-10">GALLERY</h4>
-                              <div class="row-box">
+                      <div className="col-12 col-sm-6 col-md-4">
+                          <div className="margin">
+                              <h4 className="heading-10">GALLERY</h4>
+                              <div className="row-box">
                                   <img src="./assets/images/Rectangle 42.png" alt="#" />
                                   <img src="./assets/images/Rectangle 44.png" alt="#" />
                                   <img src="./assets/images/Rectangle 46.png" alt="#" />
                                   <img src="./assets/images/Rectangle 43.png" alt="#" />
                                   <img src="./assets/images/Rectangle 45.png" alt="#" />
-                                  <button class="show-more">Show More</button>
+                                  <button className="show-more">Show More</button>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <h4 class="last-heading">© Credits of companyName belong to companyName.</h4>
+                  <h4 className="last-heading">© Credits of companyName belong to companyName.</h4>
               </div>
           </footer>
     </div>

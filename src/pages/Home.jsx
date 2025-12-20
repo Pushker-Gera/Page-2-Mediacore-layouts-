@@ -16,9 +16,9 @@ const Home = () => {
                   <p className='para-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,</p>
                   <div className="button-box">
                       <button className='get-started'>Get Started</button>
-                      <p className='button-para'>
+                      <a href='#' className='button-para'>
                           Learn more
-                      </p>
+                      </a>
                   </div>
                   <div className="svg-box">
                       <svg width="472" height="8" viewBox="0 0 472 8" fill="none" xmlns="http://www.w3.org/2000/svg">
