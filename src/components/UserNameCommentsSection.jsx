@@ -34,13 +34,13 @@ const UserNameCommentsSection = () => {
         img: "./assets/images/Ellipse 18 (3).png"
       },
       {
-        id: 5,
+        id: 6,
         user: "Username",
         text: "Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.",
         img: "./assets/images/Ellipse 18 (4).png"
       },
       {
-        id: 5,
+        id: 7,
         user: "Username",
         text: "Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.",
         img: "./assets/images/Ellipse 18 (5).png"
@@ -95,7 +95,7 @@ const UserNameCommentsSection = () => {
         </div>
         <div className="box-type-5 second-type" style={{ display: "flex" }}>
           {comments[0].map((c) => (
-            <div className="box-5" key={c.id} >
+            <div className="box-9" key={c.id} >
               <div className="img-box">
                 <img src={c.img} alt="img" />
               </div>

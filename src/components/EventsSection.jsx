@@ -5,19 +5,19 @@ const EventsSection = () => {
         <div>
             <div className="Events-section">
                 <div className="container">
-                    <span class="line">
+                    <span className="line">
                         <svg width="189" height="8" viewBox="0 0 189 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="1" width="188" height="8" fill="#01C8FF" />
                             <rect width="166" height="8" fill="#2C49FE" />
                         </svg>
                     </span>
-                    <h2 class="heading-11">Choose your next event</h2>
+                    <h2 className="heading-11">Choose your next event</h2>
                     <div className="row-6">
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -29,20 +29,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -50,12 +50,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -81,16 +81,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -102,20 +102,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -123,12 +123,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -154,16 +154,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -175,20 +175,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -196,12 +196,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -227,16 +227,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -248,20 +248,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -269,12 +269,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -300,16 +300,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -321,20 +321,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -342,12 +342,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -373,16 +373,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -394,20 +394,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -415,12 +415,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -446,16 +446,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -467,20 +467,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -488,12 +488,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -519,16 +519,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -540,20 +540,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -561,12 +561,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -592,16 +592,16 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <article class="shadow">
-                                <img class="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
-                                <h3 class="h3-font">Lorem ipsum dolar sit de</h3>
-                                <div class="flex item-center">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <article className="shadow">
+                                <img className="img-w" src="./assets/images/Rectangle 64.png" alt="lorem ipsum dolar sitde" />
+                                <h3 className="h3-font">Lorem ipsum dolar sit de</h3>
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.6">
@@ -613,20 +613,20 @@ const EventsSection = () => {
                                                 fill="black" />
                                         </g>
                                     </svg>
-                                    <p class="para-11">10/02/2022</p>
+                                    <p className="para-11">10/02/2022</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_411)">
+                                        <g clipPath="url(#clip0_102118_411)">
                                             <path
                                                 d="M19.1998 8.15996C19.1998 14.6899 11.9998 23.04 11.9998 23.04C11.9998 23.04 4.7998 14.8454 4.7998 8.15996C4.7998 4.18316 8.023 0.959961 11.9998 0.959961C15.9761 0.959961 19.1998 4.18316 19.1998 8.15996Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                             <path
                                                 d="M12.0001 11.52C13.5907 11.52 14.8801 10.2306 14.8801 8.64001C14.8801 7.04943 13.5907 5.76001 12.0001 5.76001C10.4095 5.76001 9.12012 7.04943 9.12012 8.64001C9.12012 10.2306 10.4095 11.52 12.0001 11.52Z"
-                                                stroke="#666666" stroke-width="1.7647" stroke-miterlimit="10"
-                                                stroke-linejoin="round" />
+                                                stroke="#666666" strokeWidth="1.7647" strokeMiterlimit="10"
+                                                strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_102118_411">
@@ -634,12 +634,12 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">Mumbai</p>
+                                    <p className="para-11">Mumbai</p>
                                 </div>
-                                <div class="flex item-center">
+                                <div className="flex item-center">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102118_392)">
+                                        <g clipPath="url(#clip0_102118_392)">
                                             <path
                                                 d="M12 16.5C11.11 16.5 10.24 16.2361 9.49994 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18869 9.44736 8.81802 8.81802C9.44736 8.18869 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49994C16.2361 10.24 16.5 11.11 16.5 12C16.5 13.1935 16.0259 14.3381 15.182 15.182C14.3381 16.0259 13.1935 16.5 12 16.5ZM12 9C11.4067 9 10.8266 9.17595 10.3333 9.50559C9.83994 9.83524 9.45543 10.3038 9.22836 10.852C9.0013 11.4001 8.94189 12.0033 9.05765 12.5853C9.1734 13.1672 9.45912 13.7018 9.87868 14.1213C10.2982 14.5409 10.8328 14.8266 11.4147 14.9424C11.9967 15.0581 12.5999 14.9987 13.1481 14.7716C13.6962 14.5446 14.1648 14.1601 14.4944 13.6667C14.8241 13.1734 15 12.5933 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7957 9 12 9Z"
                                                 fill="#666666" />
@@ -665,11 +665,11 @@ const EventsSection = () => {
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <p class="para-11">1,080</p>
+                                    <p className="para-11">1,080</p>
                                 </div>
-                                <button class="gocheck">Go Check</button>
+                                <button className="gocheck">Go Check</button>
                             </article>
-                        </div>
+                        </div>    
                     </div>
                 </div>
             </div>

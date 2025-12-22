@@ -9,11 +9,11 @@ const Events = () => {
   return (
       <div>
           <header className='bg-img'>
-              <div class="container padding-top">
-                  <p class="Home">
+              <div className="container padding-top">
+                  <p className="Home">
                     <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>Home</Link> &gt; {location.pathname.replace("/", "")}
                   </p>
-                  <h3 class="Events">Events</h3>
+                  <h3 className="Events">Events</h3>
               </div>
           </header>
           <EventsSection />
