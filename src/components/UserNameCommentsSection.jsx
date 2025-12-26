@@ -88,10 +88,10 @@ const UserNameCommentsSection = () => {
         <p className='tell-para'>Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
       </div>
       <div className="user-name-comments-box">
-        <div className="box-4-2">
+        <div className="box-4">
           <img src="./assets/images/Ellipse 18.png" className='img-circle' alt="img-circle" />
           <input className='comment' type="text" placeholder='Write your comment here...' value={commentText[0]} onChange={(e) => setCommentText(commentText.map((t, i) => i === 0 ? e.target.value : t))} />
-          <button className='post-comment-2' onClick={() => postComment(0)}>Post Comment</button>
+          <button className='post-comment' onClick={() => postComment(0)}>Post Comment</button>
         </div>
         <div className="box-type-5 second-type" style={{ display: "flex" }}>
           {comments[0].map((c) => (

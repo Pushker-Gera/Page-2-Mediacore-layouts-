@@ -73,17 +73,17 @@ const Footer = () => {
                           <div className="flex">
                               <div className="services-col">
                                   <h4 className="heading-10">SERVICES</h4>
-                                  <a href='#' className="para-10">About</a>
-                                  <a href='#' className="para-10">News</a>
-                                  <a href='#' className="para-10">ullamcorper</a>
-                                  <a href='#' className="para-10">Contact</a>
+                                  <Link href='#' className="para-10">About</Link>
+                                  <Link href='#' className="para-10">News</Link>
+                                  <Link href='#' className="para-10">ullamcorper</Link>
+                                  <Link href='#' className="para-10">Contact</Link>
                               </div>
                               <div className="events-col">
                                   <h4 className="heading-10">EVENTS</h4>
-                                  <a href='#' className="para-10">ullamcorper</a>
-                                  <a href='#' className="para-10">ullamcorper</a>
-                                  <a href='#' className="para-10">ullamcorper</a>
-                                  <a href='#' className="para-10">ullamcorper</a>
+                                  <Link href='#' className="para-10">ullamcorper</Link>
+                                  <Link href='#' className="para-10">ullamcorper</Link>
+                                  <Link href='#' className="para-10">ullamcorper</Link>
+                                  <Link href='#' className="para-10">ullamcorper</Link>
                               </div>
                           </div>
                       </div>

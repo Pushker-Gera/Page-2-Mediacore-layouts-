@@ -42,7 +42,7 @@ const Home = () => {
                                   <p className='para-3'>Search by city</p>
                               </div>
                           </div>
-                          <svg width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='svg-lines' width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" strokeWidth="3" />
                           </svg>
                       </div>
@@ -56,7 +56,7 @@ const Home = () => {
                                   <p className='para-3'>09/23/2021</p>
                               </div>
                           </div>
-                          <svg width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='svg-lines' width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" strokeWidth="3" />
                           </svg>
                       </div>
@@ -77,7 +77,7 @@ const Home = () => {
                                   <p className='para-3'>Search by city</p>
                               </div>
                           </div>
-                          <svg width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='svg-lines' width="3" height="74" viewBox="0 0 3 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <line x1="1.5" y1="6.55671e-08" x2="1.5" y2="74" stroke="white" strokeWidth="3" />
                           </svg>
                       </div>

@@ -112,7 +112,7 @@ const UserName = () => {
                     </div>
                     <div className="gallery-col-2">
                         <div className="item">
-                            <img src="./assets/images/item-1.png" alt="item-1" />
+                            <img className='w-100' src="./assets/images/item-1.png" alt="item-1" />
                         </div>
                         <div className="item">
                             <img src="./assets/images/item-2.png" alt="item-2" />

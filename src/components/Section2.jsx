@@ -9,7 +9,7 @@ const Section2 = () => {
                       <div className="col-6 col-12 vedio-img-box">
                           <img className='vedio-img' src="./assets/images/Group 17.png" alt="vedio-grp" />
                       </div>
-                      <div className="col-6 col-12">
+                      <div className=" text-center col-6 col-12">
                           <svg width="189" height="8" viewBox="0 0 189 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <rect x="1" width="188" height="8" fill="#01C8FF" />
                               <rect width="166" height="8" fill="#2C49FE" />

@@ -60,7 +60,7 @@ const Section4 = () => {
                             <h2 className='heading-9'>Join Us !</h2>
                             <p className='para-9'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue </p>
                             <h3 className='sign-up'>Sign Up</h3>
-                            <form action="">
+                            <form className='form' action="">
                                 <div className='name-box'>
                                     <input
                                         type="text"

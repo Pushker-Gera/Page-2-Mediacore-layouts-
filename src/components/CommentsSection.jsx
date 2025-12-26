@@ -193,12 +193,12 @@ const CommentsSection = () => {
             </div>
             <div className="card-2">
               <div className="flex-box-1">
-                <div className="box-img"><img src="./assets/images/img-1.png" alt="" /></div>
-                <div className="box-img"><img src="./assets/images/img-2.png" alt="" /></div>
+                <div className="box-img"><img className='width-100' src="./assets/images/img-1.png" alt="" /></div>
+                  <div className="box-img"><img className='width-100' src="./assets/images/img-2.png" alt="" /></div>
               </div>
               <div className="flex-box-1">
-                <div className="box-img"><img src="./assets/images/img-3.png" alt="" /></div>
-                <div className="box-img"><img src="./assets/images/img-4.png" alt="" /></div>
+                  <div className="box-img"><img className='width-100' src="./assets/images/img-3.png" alt="" /></div>
+                  <div className="box-img"><img className='width-100' src="./assets/images/img-4.png" alt="" /></div>
               </div>
               <Link to='/Events'>
               <div className="box-2">
