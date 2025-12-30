@@ -117,9 +117,21 @@ const CommentsSection = () => {
     ]
   ]);
   const [commentText, setCommentText] = useState(["", "", "", "", ""]);
+  const [commentError, setCommentError] = useState(["", "", "", "", ""]);
 
   const postComment = (postIndex) => {
-    if (commentText[postIndex].trim() === "") return;
+    if (commentText[postIndex].trim() === "") {
+      setCommentError(
+        commentError.map((err, i) =>
+          i === postIndex ? "Comment cannot be empty" : err
+        )
+      );
+      return;
+    }
+
+    setCommentError(
+      commentError.map((err, i) => (i === postIndex ? "" : err))
+    );
 
     const newComment = {
       id: Date.now(),
@@ -214,7 +226,22 @@ const CommentsSection = () => {
           </svg>
           <div className="box-4">
             <img src="./assets/images/Ellipse 18.png" className='img-circle' alt="img-circle" />
-            <input className='comment' type="text" placeholder='Write your comment here...' value={commentText[postIndex]} onChange={(e) => setCommentText(commentText.map((t, i) => i === postIndex ? e.target.value : t))} />
+            <input
+              className='comment'
+              type="text"
+              placeholder='Write your comment here...'
+              value={commentText[postIndex]}
+              onChange={(e) =>
+                setCommentText(
+                  commentText.map((t, i) => i === postIndex ? e.target.value : t)
+                )
+              }
+            />
+            {commentError[postIndex] && (
+                <p style={{ color: "red", fontSize: "16px", marginTop: "10px", textAlign: "center" }}>
+                {commentError[postIndex]}
+              </p>
+            )}
             <button className='post-comment' onClick={() => postComment(postIndex)}>Post Comment</button>
           </div>
           <div className="box-type-5"
